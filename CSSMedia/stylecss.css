@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+}
+
+body, html{
+width: 100%;
+height: 100%;
+}
+
+.container{
+    width: 100%;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: dimgray;
+    height: 200px;
+}
+
+#header{
+height: 200px;
+background-color: aqua;
+
+}
+
+.box {
+width: 50%;
+height: 140px;
+float: left;
+}
+
+.box1{
+    background-color: cornflowerblue;
+}
+
+.box2{
+    background-color: violet;
+}
+
+.box3{
+    background-color: tomato;
+}
+
+.box4{
+    background-color: teal;
+}
+
+.box5{
+    background-color: royalblue;
+}
+.box6{
+    background-color: darkgreen;
+}
+
+.clearfix{
+    clear :both;
+}
+
+@media screen and (max-width:1024px)
+{
+    .box1{
+        width:100%;
+    }
+    .box2{
+        width: 100%;
+    }
+    .box3{
+        width:100%;
+    }
+    .box4{
+        width:100%;
+    }
+    .box5{
+        width: 100%;
+    }
+    .box6{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    .box1{
+        width:100%;
+    }
+    .box2{
+        width: 100%;
+    }
+    .box3{
+        width:50%;
+    }
+    .box4{
+        width:50%;
+    }
+    .box5{
+        width: 100%;
+    }
+    .box6{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:320px)
+{
+    .box1{
+        width:25%;
+    }
+    .box2{
+        width:25%;
+    }
+    .box3{
+        width:25%;
+    }
+    .box4{
+        width:25%;
+    }
+    .box5{
+        width: 25%;
+    }
+    .box6{
+        width: 25%;
+    }
+} 
+
