@@ -1,0 +1,13 @@
+html{
+    width: 80%;
+    position: fixed;
+    border-style: dotted;
+    border-color: black;
+    
+
+}
+
+.spancheck
+{
+    position: relative;
+}

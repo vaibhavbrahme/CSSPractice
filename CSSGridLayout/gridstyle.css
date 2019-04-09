@@ -1,9 +1,112 @@
-*{
-    width: 100%;
+html, body{
+    min-width: 320px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(152, 141, 248);
+    
+    
 }
 
+#survey-form{
+    width: 80%;
+    border-radius: 2px;
+    border-color: black;
+    border-style: groove;
+    display: block;
+    align-content: center;
+    margin-left: 130px; 
+    background-color:blanchedalmond;
+    border-radius: 10px;
+    
+}
 .grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding: 2em 2em 2em 2em;
+}
+
+.grid div:nth-child(even){
+    border: 0px;
+    border-color: black;
+    border-style: solid;
+    padding: 1em 1em 1em 1em;  
+}
+
+.grid div:nth-child(odd){
+    border: 0px;
+    border-color: black;
+    border-style: solid;
+    padding: 1em 1em 1em 1em; 
+    text-align: right;
+    margin-top: .5em;
+}
+
+.dropdown {
+    width:  -webkit-fill-available;
+    float: left;
+    border: 0ch;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.checkbox .radio{
+    position: relative;
+    left: -43px;
+    display: block;
+    padding-bottom: 10px;
+    width:199px;
+    line-height: 0.8;
+    font-size: 15px;
+}
+
+.comment{
+    height: 50px;
+    width: 210px;
+    resize: vertical;
+    font-size: 15px;
+}
+
+.input-field{
+    width:  -webkit-fill-available;  
+    border: 0ch; 
+    border-radius: 5px;
+    height: 40px;
+    font-size: 15px;
+}
+
+#title{
+   text-align: center;
+   color: whitesmoke;
+}
+#description{
+    text-align: center;
+    color: whitesmoke;
+}
+
+.Submit{
+    background-color:firebrick;
+    font-style: oblique;
+    font-display: block;
+    color: whitesmoke;    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border: 0px solid;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 1024px)
+{
+
+}
+
+@media screen and (max-width: 768px)
+{
+
+}
+
+@media screen and (max-width: 320px)
+{
+
 }
 
